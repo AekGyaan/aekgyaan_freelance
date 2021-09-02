@@ -882,4 +882,63 @@ html, body {
   letter-spacing: 1px;
 }
 
+/* ------------------------- articles individual page -------------------------- */
 
+.ai{
+  min-height: 500px;
+  width: 1200px;
+  margin: 8% auto 2% auto;
+  display: flex;
+  flex-direction: column;
+}
+.ai-h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #130F42;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+.ai-date{
+  /* width: 0%; */
+  margin: 0 auto;
+}
+.ai-img{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.ai-img img{
+  width: 900px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 10px 8px rgb(0 0 0 / 20%);
+}
+.ai-h2{
+  font-family: 'Lato', sans-serif;
+  color: #130F42;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto 40px auto;
+}
+.ai-h3{
+  font-family: 'Abril Fatface', cursive;
+  color: #130F42;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto 15px auto;
+}
+.ai-p{
+  font-family: 'Lato', sans-serif;
+  color: #130F42;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  width: 70%;
+  margin: 0 auto 40px auto;
+}
