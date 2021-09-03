@@ -1,0 +1,115 @@
+<div class="sec1">
+        <div class="sec1-left">
+            <div class="sec1-left-inner">
+                <a href="https://www.linkedin.com/in/aekgyaan-house-of-research-427055209/" target="_blank"><i
+                        class="sec1-i fab fa-linkedin-in"></i></a>
+                <a href="mailto:aekgyaan@gmail.com" target="_blank"><i class="sec1-i far fa-envelope"></i></a>
+                <a href="https://www.instagram.com/aekgyaan_house_of_reseach/" target="_blank"><i
+                        class="sec1-i fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="sec1-i fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="sec1-right">
+            <div class="sec1-right-inner">
+                <div class="sec1-h1">AEKGYAAN</div>
+                <div class="sec1-h2">House of Research</div>
+                <div class="sec1-h3">Every Addition to True Knowledge is <br> an Addition to True Power!!</div>
+                <div class="sec1-button"><a href="./contact-us.html" target="_blank">Contact Us</a></div>
+            </div>
+        </div>
+        <div class="sec1-over">
+            <img src="images/1. header/1.jpg" alt="">
+        </div>
+    </div>
+
+
+.sec1{
+  min-height: 600px;
+  width: 1200px;
+  margin: 90px auto 2% auto;
+  display: flex;
+  position: relative;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+.sec1-left{
+  background-color: #130F42;
+  flex-basis: 30%;
+  position: relative;
+}
+.sec1-left-inner{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.sec1-left-inner a{
+  color: white;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+.sec1-left-inner a:hover{
+  color: #DE3C4B;
+}
+.sec1-i{
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #2B2758;
+  padding: 12px;
+  margin-bottom: 15px !important;
+}
+.sec1-right{
+  /* background-color: #fbf5f3; */
+  flex-basis: 70%;
+  position: relative;
+}
+.sec1-right-inner{
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+.sec1-h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #130F42;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+.sec1-h2{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 28px;
+  color: #ff926b;
+  letter-spacing: 1.5px;
+  padding-bottom: 25px;
+}
+.sec1-h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #130F42;
+  padding-bottom: 35px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.sec1-button a{
+  font-family: 'Alegreya Sans', sans-serif;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: white;
+  background-color: #DE3C4B;
+  border: 2px #DE3C4B solid ;
+  border-radius: 25px;
+  padding: 12px 35px;
+  transition: .2s ease-in-out;
+}
+.sec1-button a:hover{
+  /* background-color: #fbf5f3; */
+  text-decoration: none;
+  background-color: white;
+  color: #DE3C4B;
+}
+.sec1-over img{
+  position: absolute;
+  top: 8%;
+  left: 18%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  width: 500px;
+}
