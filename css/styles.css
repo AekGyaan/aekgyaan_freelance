@@ -864,6 +864,14 @@ html, body {
   letter-spacing: 1px;
 }
 
+/* ------------------------- about us page -------------------------- */
+.abt{
+  min-height: 500px;
+  margin: 8% auto 2% auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* ------------------------- articles individual page -------------------------- */
 
 .ai{
@@ -923,6 +931,14 @@ html, body {
   text-align: left;
   width: 70%;
   margin: 0 auto 40px auto;
+}
+
+/* ------------------------- our team page -------------------------- */
+.team{
+  min-height: 500px;
+  margin: 8% auto 2% auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------------------------- contact us page -------------------------- */
