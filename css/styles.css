@@ -99,7 +99,7 @@ html, body {
     display: none;
   }
   
-  @media (max-width:768px) {
+  @media (max-width:870px) {
     .navv > .navv-btn {
       display: inline-block;
       position: absolute;
@@ -896,7 +896,7 @@ html, body {
 /* ------------------------- about us page -------------------------- */
 .abt{
   min-height: 500px;
-  margin: 8% auto 2% auto;
+  margin: 90px auto 2% auto;
   display: flex;
 }
 .abt-text{
@@ -1085,12 +1085,20 @@ html, body {
   margin: 2% auto;
   padding-bottom: 15px;
 }
+
+/* ------------------------- our vision page -------------------------- */
+.vis{
+  min-height: 500px;
+  margin: 90px auto 1% auto;
+  display: flex;
+  flex-direction: column;
+}
 /* ------------------------- articles individual page -------------------------- */
 
 .ai{
   min-height: 500px;
   width: 1200px;
-  margin: 8% auto 2% auto;
+  margin: 90px auto 2% auto;
   display: flex;
   flex-direction: column;
 }
@@ -1149,7 +1157,7 @@ html, body {
 /* ------------------------- our team page -------------------------- */
 .team{
   min-height: 150px;
-  margin: 7% auto 1% auto;
+  margin: 90px auto 1% auto;
   display: flex;
   flex-direction: column;
 }
@@ -1225,7 +1233,7 @@ html, body {
 /* ------------------------- contact us page -------------------------- */
 .cu{
   min-height: 500px;
-  margin: 8% auto 2% auto;
+  margin: 90px auto 2% auto;
   display: flex;
   flex-direction: column;
 }
