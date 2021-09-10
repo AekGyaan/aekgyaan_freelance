@@ -1093,6 +1093,15 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+
+/* ------------------------- our vision page -------------------------- */
+.ser{
+  min-height: 500px;
+  margin: 90px auto 1% auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* ------------------------- articles individual page -------------------------- */
 
 .ai{
