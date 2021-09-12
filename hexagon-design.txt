@@ -1,0 +1,98 @@
+<div class="sec3-hex1 clip-path-shadow">
+                <div class="clip-path-hexagon">
+                    <div class="sec3-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="sec3-text">Conduct <br> Evaluation</div>
+                </div>
+            </div>
+            <div class="sec3-hex2 clip-path-shadow">
+                <div class="clip-path-hexagon">
+                    <div class="sec3-icon"><i class="fas fa-bullhorn"></i></div>
+                    <div class="sec3-text">Market <br> Research</div>
+                </div>
+            </div>
+            <div class="sec3-hex3 clip-path-shadow">
+                <div class="clip-path-hexagon">
+                    <div class="sec3-icon"><i class="fas fa-cubes"></i></div>
+                    <div class="sec3-text">3D <br> Execution</div>
+                </div>
+            </div>
+            <div class="sec3-hex4 clip-path-shadow">
+                <div class="clip-path-hexagon">
+                    <div class="sec3-icon"><i class="fas fa-poll"></i></div>
+                    <div class="sec3-text">Action <br> Research</div>
+                </div>
+            </div>
+            <div class="sec3-hex5 clip-path-shadow">
+                <div class="clip-path-hexagon">
+                    <div class="sec3-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="sec3-text">Data <br> Analysis</div>
+                </div>
+            </div>
+            <div class="sec3-rect"></div>
+
+
+
+.clip-path-hexagon {
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 200px; 
+  height: 173px; 
+  background-color:#e5e8e8;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+.clip-path-hexagon:hover{
+  transform: scale(1.05);
+}
+.clip-path-shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.sec3-hex1{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}
+.sec3-hex2{
+  position: absolute;
+  top: 15%;
+  left: 41%;
+}
+.sec3-hex3{
+  position: absolute;
+  top: 42%;
+  left: 22%;
+}
+.sec3-hex4{
+  position: absolute;
+  top: 52%;
+  left: 48%;
+}
+.sec3-hex5{
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.sec3-icon{
+  color: #E3724A;
+  font-size: 45px;
+}
+.sec3-text{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #130F42;
+}
+.sec3-rect{
+  position: absolute;
+  right: 8%;
+  top: 12%;
+  z-index: -1;
+  width: 540px;
+  height: 345px;
+  background-color: #130F42;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+}
